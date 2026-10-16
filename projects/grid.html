@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont{
+            display: grid;
+            -ms-grid-row-align: 10% 80% 10%;
+            grid-template-columns: 10% 80% 10%;
+        }
+        .box1{
+            background-color: beige;
+        }
+        .box2{
+            background-color: aliceblue;
+        }
+        .box3{
+            background-color: antiquewhite;
+        }
+        .box5{
+            background-color: blanchedalmond;
+            grid-column: 1/4;
+        }
+        .con>div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="box1">Header</div>
+        <div class="box2">footer</div>
+        <div class="box3">article</div>
+        <div class="box4">main</div>
+        <div class="box5">menu   </div>
+        
+    </div>
+</body>
+</html>

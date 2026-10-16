@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfeom2ezpbPvpg7TGeJ1Ztup-iA5b127TcmdLI4L7FA&s=10" alt="" height="300px" width="500px"
+     id="img">
+     <button onclick="previousImage()">Previous</button>
+     <button onclick="doThat()">next</button>
+     
+     <script>
+        let ele=document.getElementById("img");
+        let index=1;
+        function goback(){
+            index--;
+            imgE1.setAttribute("src","dq"+index+".jpg")
+        }
+        function goforward(){
+            index++;
+            img:setAttribute("src","dq"+index+"")
+        }
+        function doThat(){
+            ele.setAttribute("src", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-tmMaZjqK2NkilnIxP1_Jua33N-4ZToAt7DP8Bn1yhg&s=10")
+            ele.setAttribute("height","300px")
+            ele.setAttribute("width","300px")
+        }
+          
+     </script>
+</body>
+</html>
